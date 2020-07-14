@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
-Yii::$app->params['senderEmail'] = 'skladder@gmail.com';
+Yii::$app->params['senderEmail'] = 'mrelectrik.ru@gmail.com';
 Yii::$app->params['senderName'] = 'Admin';
 ?>
 
@@ -50,7 +50,7 @@ Yii::$app->params['senderName'] = 'Admin';
             <div class="modal-body">
 
                 <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
-                <?= $form->field($model, 'email')->textInput(['value'=>'skladder@gmail.com'])->hiddenInput(['value'=>'skladder@gmail.com'])->label(false) ?>
+                <?= $form->field($model, 'email')->textInput(['value'=>'mrelectrik.ru@gmail.com'])->hiddenInput(['value'=>'mrelectrik.ru@gmail.com'])->label(false) ?>
                 <?= $form->field($model, 'phoneNumber') ?>
 
                 Наш менеджер свяжется с вами в ближайщее время.
