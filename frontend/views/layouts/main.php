@@ -204,7 +204,7 @@ echo \newerton\fancybox\FancyBox::widget([
 </script>
 
 <?php $this->endBody() ?>
-
+<?= $this->render('/partials/counters/_counters'); ?>
 <?= \common\components\feedBack\FBFWidget::widget([]) ?>
 </body>
 </html>
