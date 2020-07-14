@@ -44,6 +44,17 @@ AppAsset::register($this);
     <title><?= Yii::$app->params['text']['title'] ?></title>
     <?php $this->head() ?>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170840760-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-170840760-2');
+    </script>
+
+
 </head>
 <body role="document">
 <?php $this->beginBody() ?>
