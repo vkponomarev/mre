@@ -56,7 +56,7 @@ return [
                 //'http://<domain: w="">.test.int/' => 'site/index',
                 '/services' => 'services/index',
                 '/services/<url>' => 'services/services',
-                //'/products/<url>' => 'products/index',
+                ///'/products/<url>' => 'products/index',
 
 
                 //CMS
