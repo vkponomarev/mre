@@ -26,17 +26,6 @@ class MainPageController extends Controller
 
     public $domain = 'false';
 
-    public function init() {
-/*
-        $subDomain = new SubDomain();
-        $subDomainData = $subDomain->data();
-        $subDomainCheck = $subDomain->check($subDomainData);
-
-        if ($subDomainCheck)
-            $domain = $subDomainCheck;
-
-        (new \common\components\dump\Dump())->printR($domain);*/
-    }
 
     public function actionIndex()
     {
