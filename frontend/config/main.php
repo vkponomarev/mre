@@ -56,14 +56,14 @@ return [
                 //'http://<domain: w="">.test.int/' => 'site/index',
                 '/services' => 'services/index',
                 '/services/<url>' => 'services/services',
-                '/products/<url>' => 'products/index',
+                //'/products/<url>' => 'products/index',
 
 
                 //CMS
                 //'/cms/' => 'cms/index',
                 '/cms/cookie-3' => 'cms/cookie-info',
                 '/cms/policy-5830' => 'cms/policy',
-                '/cms/company-4' => 'cms/company',
+                //'/cms/company-4' => 'cms/company',
                 '/cms/contacts-5831' => 'cms/contacts',
                 '/cms/regions-5832' => 'cms/regions',
             ],
