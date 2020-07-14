@@ -46,9 +46,9 @@ class MainPagesDataContacts
             Yii::$app->params['phone'] = 'Здесь может быть ваш телефон';
             Yii::$app->params['email'] = 'mrelectrik.ru@gmail.com';
 
-            Yii::$app->params['modalMain'] = 'По поводу аренды данного сайта писать на mrelectrik.ru@gmail.com
+            Yii::$app->params['modalMain'] = '<br><br>По поводу аренды данного сайта писать на mrelectrik.ru@gmail.com<br><br>
             ';
-            Yii::$app->params['modalContacts'] = 'По поводу аренды данного сайта писать на mrelectrik.ru@gmail.com';
+            Yii::$app->params['modalContacts'] = '<br><br>По поводу аренды данного сайта писать на mrelectrik.ru@gmail.com<br><br>';
 
         }
 
