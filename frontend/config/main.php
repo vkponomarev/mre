@@ -17,7 +17,7 @@ return [
             'class' => 'yii\swiftmailer\Mailer'
         ],
         'request' => [
-           // 'csrfParam' => '_csrf-frontend',
+            'csrfParam' => '_csrf-frontend',
             'baseUrl' => '', //убрать frontend/web
            // 'class' => 'codemix\localeurls\UrlManager',
         ],
